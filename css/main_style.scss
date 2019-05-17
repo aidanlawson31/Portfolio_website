@@ -1,3 +1,17 @@
+h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center center;
+  font-size: 15pt;
+  line-height: 40px;
+}
+
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 18pt;
+}
 
 html {
   min-height: 2px;
@@ -14,15 +28,89 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+  -webkit-transition-duration: 0.4s;
+}
+
+.header {
+  letter-spacing: 2px;
+  position: absolute;
+  width: 1000px;
+  height: 21px;
+  top: 30px;
 }
 
 .homesqaure {
-  border: dotted 5x orange;
+  position: absolute;
+  width: 291px;
+  height: 436px;
+  left: 42x;
+  top: 117px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.hometext {
+  position: absolute;
+  width: 245px;
+  height: 429px;
+  left: 25px;
+  top: 10px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center center;
+  font-size: 15pt;
+  line-height: 40px;
+}
+
+.homecircle {
+
+  position: absolute;  
+  width: 200px;
+  height: 200px;
+  border: 1px solid #FFFFFF;
+  left: 47px;
+  top: 200px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .portfolio {
   background-color: black;
   min-height: 900px;
+}
+
+.portfoliosquare {
+  position: absolute;
+  width: 291px;
+  height: 310px;
+  left: 48px;
+  top: 117px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.portfoliosquare2 {
+  position: absolute;
+  width: 291px;
+  height: 310px;
+  left: 48px;
+  top: 170px;
+
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
 }
 
 .contact {
