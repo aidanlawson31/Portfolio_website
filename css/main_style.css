@@ -1,6 +1,35 @@
+html {
+  min-height: 2px;
+}
+
 body {
-  background-image: url("https://images.unsplash.com/photo-1483086431886-3590a88317fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+  min-height: 2700px;
+}
+
+.home {
+  background-image: url(../images/vincent-guth-182001-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 2000px;
+  background-attachment: scroll;
+  min-height: 900px;
+}
+
+.homesqaure {
+  border: dotted 5x orange;
+}
+
+.portfolio {
+  background-color: black;
+  min-height: 900px;
+}
+
+.contact {
+  background-image: url(../images/image-upside-down.jpg);
+  min-height: 900px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 /*# sourceMappingURL=main_style.css.map */
