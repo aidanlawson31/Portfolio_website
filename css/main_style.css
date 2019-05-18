@@ -44,13 +44,17 @@ body {
 }
 
 a:hover {
-  color: lightblue;
+  color: #38e3c9;
 }
 
 a:link {
   text-decoration: none;
   color: #FFFFFF;
   -webkit-transition-duration: 0.4s;
+}
+
+a:visited {
+  color: white;
 }
 
 .header {
@@ -99,25 +103,38 @@ a:link {
 .portfolio {
   background-color: black;
   min-height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
 }
 
 .portfoliosquare {
-  position: absolute;
   width: 291px;
   height: 310px;
-  left: 48px;
-  top: 117px;
+  left: 97px;
+  top: 1050px;
   border: 1px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .portfoliosquare2 {
-  position: absolute;
   width: 291px;
-  height: 310px;
-  left: 48px;
-  top: 170px;
+  height: 340px;
+  left: 97px;
+  top: 1400px;
+  margin-top: 50px;
   border: 1px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
