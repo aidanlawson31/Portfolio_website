@@ -1,7 +1,6 @@
 h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
-  text-align: center center;
   font-size: 15pt;
   line-height: 40px;
 }
@@ -98,6 +97,13 @@ a:visited {
   top: 200px;
   border-radius: 50%;
   display: inline-block;
+}
+
+.about {
+  position: relative;
+  top: 280px;
+  max-width: 600px;
+  text-align: center;
 }
 
 .portfolio {
