@@ -20,19 +20,6 @@ body {
   min-height: 2700px;
 }
 
-.home {
-  background-image: url(../images/vincent-guth-182001-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  min-height: 900px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .logo {
   float: left;
   margin-left: 0;
@@ -114,10 +101,23 @@ nav a:hover::before {
   width: 100%;
 }
 
+.home {
+  background-image: url(../images/vincent-guth-182001-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  min-height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .homesqaure {
   position: absolute;
   width: 291px;
-  height: 436px;
+  height: 291px;
   left: 42x;
   top: 117px;
   border: 1px solid #FFFFFF;
@@ -144,20 +144,28 @@ nav a:hover::before {
   height: 200px;
   border: 1px solid #FFFFFF;
   left: 47px;
-  top: 200px;
+  top: 48px;
   border-radius: 50%;
   display: inline-block;
 }
 
 .about {
   background-color: white;
-
-  min-height: 100px;
+  min-height: 190px;
   position: relative;
   top: 200px;
-  max-width: 100%;
-  text-align: center;
+  min-width: 100%;
+  text-align: left;
   color: black;
+}
+
+#about-header {
+  color: #67ADFF;
+}
+
+.about h1 {
+  padding-left: 20px;
+  padding-right: 400px;
 }
 
 .portfolio {
@@ -192,7 +200,7 @@ nav a:hover::before {
 }
 
 .contact {
-  background-image: url(../images/image-upside-down.jpg);
+  background-color: rgb(218, 218, 218);
   min-height: 900px;
   background-size: cover;
   background-position: center;
