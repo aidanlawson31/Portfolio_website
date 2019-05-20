@@ -1,12 +1,11 @@
 h1 {
-  color: white;
+
   font-family: 'Roboto', sans-serif;
   font-size: 15pt;
   line-height: 40px;
 }
 
 p {
-  color: white;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 18pt;
@@ -17,6 +16,7 @@ html {
 }
 
 body {
+  margin: 0;
   min-height: 2700px;
 }
 
@@ -33,26 +33,85 @@ body {
   align-items: center;
 }
 
-a:hover {
-  color: rgb(56, 227, 201);
+.logo {
+  float: left;
+  margin-left: 0;
+  padding-left: 0;
+  height: auto;
 }
 
-a:link {
-  text-decoration: none;
-  color: #FFFFFF;
-  -webkit-transition-duration: 0.4s;
+header {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
-a:visited {
-  color: white;
+header::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
-.header {
+.container{
   letter-spacing: 2px;
-  position: absolute;
-  width: 1000px;
-  height: 21px;
-  top: 30px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #67ADFF;
+  text-align: center;
+  font-size: 20pt;
+}
+
+nav {
+  float: right;
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+}
+
+nav li {
+  // display inline block for versitality, using text alignment if we want to.
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 9px;
+
+  position: relative;
+}
+
+nav a {
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  
+  position: abosolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
 
 .homesqaure {
@@ -91,14 +150,18 @@ a:visited {
 }
 
 .about {
+  background-color: white;
+
+  min-height: 100px;
   position: relative;
-  top: 280px;
-  max-width: 600px;
+  top: 200px;
+  max-width: 100%;
   text-align: center;
+  color: black;
 }
 
 .portfolio {
-  background-color: black;
+  background-color: white;
   min-height: 900px;
   display: flex;
   flex-direction: column;
