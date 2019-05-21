@@ -133,9 +133,6 @@ nav a:hover::before {
 #about {
   background-color: white;
   min-height: 900px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 #about-header {
@@ -168,36 +165,63 @@ nav a:hover::before {
 #textbox1 {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+
+#textbox2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #575757;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 20%;
+  margin-left: 8%;
+}
+
+
+#textbox3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #919191;
+  text-align: right;
+  margin-top: 15%;
+  margin-right: 2%;
+
 }
 
 // The original Idea
 
-// .about-arrow img:hover { 
-//   position: relative; 
-//   top: 5px;
-// } 
+.about-arrow img:hover { 
+  position: relative;
+  top: 5px;
+    transition: all ease-in-out 250ms;
+} 
 
 // the new idea
 
 .about-arrow img {
   -webkit-animation: mover 1s infinite  alternate;
   animation: mover 1s infinite  alternate;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
 }
+
 @keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
 }
 
-.contact {
-  background-color: rgb(218, 218, 218);
+#projects {
+  background-color: rgb(240, 240, 240);
   min-height: 900px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  border: 5px dotted green;
 }
