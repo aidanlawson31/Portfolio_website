@@ -24,7 +24,6 @@ html {
 }
 
 header {
-  background-color: #9accda;
   min-width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
@@ -117,7 +116,6 @@ nav a:hover::before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 5px dotted blue;
 }
 
 .home-logo {
@@ -167,6 +165,11 @@ nav a:hover::before {
   display: inline-block;
 }
 
+.about-arrow img:hover {
+  position: relative;
+  top: 5px;
+}
+
 #about-header {
   color: #67ADFF;
 }
@@ -176,7 +179,7 @@ nav a:hover::before {
   padding-right: 400px;
 }
 
-.portfolio {
+#about {
   background-color: white;
   min-height: 900px;
   display: -webkit-box;
@@ -193,28 +196,6 @@ nav a:hover::before {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  border: 5px dotted blue;
-}
-
-.portfoliosquare {
-  width: 291px;
-  height: 310px;
-  left: 97px;
-  top: 1050px;
-  border: 1px solid #FFFFFF;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.portfoliosquare2 {
-  width: 291px;
-  height: 340px;
-  left: 97px;
-  top: 1400px;
-  margin-top: 50px;
-  border: 1px solid #FFFFFF;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .contact {
