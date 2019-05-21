@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -5,15 +10,22 @@ body, html {
   width: 100%
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   float: left;
   margin-left: 0;
   padding-left: 0;
-  height: auto;
+  margin-top: 15px;
+  height: 49px;
+  width: 49px;
 }
 
 header {
-  background-color: white;
+  background-color: rgb(154, 204, 218);
+  min-width: 100%;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -35,17 +47,16 @@ header::after {
   color: #67ADFF;
   text-align: center;
   font-size: 20pt;
-  
 }
 
 nav {
   float: right;
-  padding: 7px 0;
+  padding: 14px 0;
 }
 
 nav ul {
   margin: 0;
-  padding: 7px 0;
+  padding: 2px 0;
   list-style: none;
 }
 
@@ -53,7 +64,7 @@ nav li {
   // display inline block for versitality, using text alignment if we want to.
   display: inline-block;
   margin-left: 70px;
-  padding-top: 9px;
+  padding-top: 7px;
 
   position: relative;
 }
@@ -93,21 +104,30 @@ nav a:hover::before {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  height: 100%;
-  width: 100%;
+  min-height: 900px;
+  width: auto;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 5px dotted blue;
 }
+
+// .signature {
+//   width: 10px;
+// }
 
 .home-logo {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 30pt;
-  letter-spacing: -10px;
-  margin-top: 170px;
+  letter-spacing: -5px;
+}
+
+.home-logo h1 {
+  color: #67ADFF; 
+  max-width: 50px;
 }
 
 .homesqaure {
@@ -145,15 +165,20 @@ nav a:hover::before {
   display: inline-block;
 }
 
-.about {
-  background-color: white;
-  min-height: 190px;
-  position: relative;
-  top: 200px;
-  min-width: 100%;
-  text-align: left;
-  color: black;
-}
+// #about {
+
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-attachment: scroll;
+//   background-color: white;
+//   min-height: 900x;
+//   position: relative;
+//   top: 900px;
+//   min-width: 100%;
+//   text-align: left;
+//   color: black;
+//   border: 10px dotted red;
+// }
 
 #about-header {
   color: #67ADFF;
@@ -172,6 +197,7 @@ nav a:hover::before {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 5px dotted blue;
 }
 
 .portfoliosquare {
@@ -202,4 +228,5 @@ nav a:hover::before {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  border: 5px dotted green;
 }
