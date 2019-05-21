@@ -125,50 +125,6 @@ nav a:hover::before {
   max-width: 50px;
 }
 
-.homesqaure {
-  position: absolute;
-  width: 291px;
-  height: 291px;
-  left: 42x;
-  top: 117px;
-  border: 1px solid #FFFFFF;
-  box-sizing: border-box;
-}
-
-.hometext {
-  position: absolute;
-  width: 245px;
-  height: 429px;
-  left: 25px;
-  top: 10px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  text-align: center center;
-  font-size: 15pt;
-  line-height: 40px;
-}
-
-.homecircle {
-
-  position: absolute;  
-  width: 200px;
-  height: 200px;
-  border: 1px solid #FFFFFF;
-  left: 47px;
-  top: 48px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.about-arrow img:hover { 
-  position: relative; 
-  top: 5px;
-} 
-
-#about-header {
-  color: #67ADFF;
-}
-
 .about h1 {
   padding-left: 20px;
   padding-right: 400px;
@@ -178,10 +134,62 @@ nav a:hover::before {
   background-color: white;
   min-height: 900px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
+}
+
+#about-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  background: lightcoral;
+  justify-content: center;
+}
+
+#about-header #div1 {
+  width: 33.333%;
+  height: 100px;
+  background:#C4C4C4;
+}
+
+#about-header #div2 {
+  width: 33.333%;
+  height: 100px;
+  background:#D1D1D1;
+}
+
+#about-header #div3 {
+  width: 33.333%;
+  height: 100px;
+  background:#E9E9E9;
+}
+
+#textbox1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+// The original Idea
+
+// .about-arrow img:hover { 
+//   position: relative; 
+//   top: 5px;
+// } 
+
+// the new idea
+
+.about-arrow img {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
 
 .contact {
