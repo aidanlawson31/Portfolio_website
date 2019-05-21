@@ -1,22 +1,8 @@
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15pt;
-  line-height: 40px;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  font-size: 18pt;
-}
-
-html {
-  min-height: 2px;
-}
-
-body {
+body, html {
   margin: 0;
-  min-height: 2700px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .logo {
@@ -53,12 +39,12 @@ header::after {
 
 nav {
   float: right;
-  padding: 10px 0;
+  padding: 7px 0;
 }
 
 nav ul {
   margin: 0;
-  padding: 10px 0;
+  padding: 7px 0;
   list-style: none;
 }
 
@@ -83,9 +69,9 @@ nav a:hover {
 nav a::before {
   content: '';
   display: block;
-  height: 2px;
+  height: 3px;
   width: 100%;
-  background-color: black;
+  background-color: #67ADFF;
   position: abosolute;
   top: 0;
   width: 0%;
@@ -98,12 +84,14 @@ nav a:hover::before {
 }
 
 .home {
-  background-image: url(../images/vincent-guth-182001-unsplash.jpg);
+  background-color: #9accda;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  min-height: 590px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,6 +105,14 @@ nav a:hover::before {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.home-logo {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 30pt;
+  letter-spacing: -10px;
+  margin-top: 170px;
 }
 
 .homesqaure {
