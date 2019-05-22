@@ -175,9 +175,9 @@ nav a:hover::before {
   color: #575757;
   text-align: center;
   display: flex;
-  align-items: center;
-  margin-top: 20%;
-  margin-left: 8%;
+  justify-content: center;
+  margin-top: 13%;
+  margin-left: 23%;
 }
 
 
@@ -185,20 +185,31 @@ nav a:hover::before {
   font-family: 'Montserrat', sans-serif;
   color: #919191;
   text-align: right;
+  padding-top: 15%;
   margin-top: 15%;
   margin-right: 2%;
-
+  padding-bottom: 2%;
 }
 
-// The original Idea
+a:link {
+  color: #67ADFF;
+  text-decoration: none;
+  transition-duration: 250ms;
+}
+
+a:visited {
+  color: #67ADFF;
+}
+
+a:hover {
+  color: rgb(184, 85, 184);
+}
 
 .about-arrow img:hover { 
   position: relative;
   top: 5px;
-    transition: all ease-in-out 250ms;
+  transition: all ease-in-out 250ms;
 } 
-
-// the new idea
 
 .about-arrow img {
   -webkit-animation: mover 1s infinite  alternate;
@@ -261,7 +272,78 @@ nav a:hover::before {
   margin:10px;
 }
 
-.container {
+.text-container {
   background-color:rgb(154, 204, 218);
 }
 
+#skills {
+  background-color: lightgrey;
+  height: 900px;
+  width: 100%;
+}
+
+#skills h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#rails {
+  height: 110px;
+  width: 110px;
+}
+
+.icons1 {  
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.icons1 img {
+  padding: 22px;
+}
+
+.icons2 {
+  position: relative;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+#github {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#projects #github {
+  margin-top: 80px;
+  background-color: rgb(154, 204, 218);
+  height: 400px;
+}
+
+#github img {
+  height: 30px;
+  width: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#github #bankapp {
+  border: 1px solid black;
+  max-width: 420px;
+}
+
+#mock-twitter-app {
+  border: 1px solid black;
+  min-height: 50px;
+}

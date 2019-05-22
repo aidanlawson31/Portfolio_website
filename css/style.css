@@ -187,19 +187,36 @@ nav a:hover::before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 20%;
-  margin-left: 8%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 13%;
+  margin-left: 23%;
 }
 
 #textbox3 {
   font-family: 'Montserrat', sans-serif;
   color: #919191;
   text-align: right;
+  padding-top: 15%;
   margin-top: 15%;
   margin-right: 2%;
+  padding-bottom: 2%;
+}
+
+a:link {
+  color: #67ADFF;
+  text-decoration: none;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+}
+
+a:visited {
+  color: #67ADFF;
+}
+
+a:hover {
+  color: #b855b8;
 }
 
 .about-arrow img:hover {
@@ -291,7 +308,95 @@ nav a:hover::before {
   margin: 10px;
 }
 
-.container {
+.text-container {
   background-color: #9accda;
 }
-/*# sourceMappingURL=main_style.css.map */
+
+#skills {
+  background-color: lightgrey;
+  height: 900px;
+  width: 100%;
+}
+
+#skills h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#rails {
+  height: 110px;
+  width: 110px;
+}
+
+.icons1 {
+  position: relative;
+  top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icons1 img {
+  padding: 22px;
+}
+
+.icons2 {
+  position: relative;
+  top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#projects #github {
+  margin-top: 80px;
+  background-color: #9accda;
+  height: 400px;
+}
+
+#github img {
+  height: 30px;
+  width: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#github #bankapp {
+  border: 1px solid black;
+  max-width: 420px;
+}
+
+#mock-twitter-app {
+  border: 1px solid black;
+  min-height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
