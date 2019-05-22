@@ -239,11 +239,59 @@ nav a:hover::before {
   }
 }
 
+#projects h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#projects p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #projects {
-  background-color: #f0f0f0;
+  background-color: #9accda;
   min-height: 900px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#projects img {
+  height: 100%;
+  width: 100%;
+}
+
+.wrap {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 50%;
+  background-color: #9accda;
+  margin: 10px;
+}
+
+.container {
+  background-color: #9accda;
 }
 /*# sourceMappingURL=main_style.css.map */

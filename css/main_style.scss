@@ -218,10 +218,50 @@ nav a:hover::before {
   100% { transform: translateY(-10px); }
 }
 
+#projects h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#projects p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #projects {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(154, 204, 218);
   min-height: 900px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+#projects img {
+  height: 100%; 
+  width: 100%;
+}
+
+.wrap {
+  width: 100%;
+  margin: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition: 0.4s;
+  width: 50%;
+  background-color:rgb(154, 204, 218);
+  margin:10px;
+}
+
+.container {
+  background-color:rgb(154, 204, 218);
+}
+
