@@ -245,7 +245,7 @@ a:hover {
 
 #projects {
   background-color: rgb(154, 204, 218);
-  min-height: 900px;
+  min-height: 600px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -372,4 +372,15 @@ h2 {
 
 #mock-twitter-app {
   min-height: 50px;
+  max-width: 420px;
+}
+
+#contact {
+  background-color: lightgrey;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  min-height: 300px;
+  width: auto;
+  margin: auto;
 }
