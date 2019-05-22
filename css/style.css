@@ -340,10 +340,46 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons3 {
+  position: relative;
+  top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons3 img {
+  padding: 46px;
 }
 
 .icons1 img {
   padding: 22px;
+}
+
+#github-logo {
+  height: 200px;
+  width: 200px;
+}
+
+#git-logo {
+  height: 110px;
+  width: 110px;
+}
+
+#weebly-logo {
+  height: 110px;
+  width: 110px;
 }
 
 .icons2 {
@@ -391,12 +427,10 @@ h2 {
 }
 
 #github #bankapp {
-  border: 1px solid black;
   max-width: 420px;
 }
 
 #mock-twitter-app {
-  border: 1px solid black;
   min-height: 50px;
 }
 /*# sourceMappingURL=style.css.map */
