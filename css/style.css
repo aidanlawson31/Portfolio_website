@@ -241,6 +241,7 @@ nav a:hover::before {
     height: 100px;
     display: flex;
     align-items: flex-start;
+    background: lightcoral;
     justify-content: center;
   }
 
@@ -292,7 +293,6 @@ nav a:hover::before {
     font-size: 18pt;
   }
 }
-
 @media (max-width: 480px) {
   #textbox1 {
     font-family: "Montserrat", sans-serif;
