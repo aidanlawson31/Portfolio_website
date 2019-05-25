@@ -464,8 +464,14 @@ a:hover {
 
 #skills {
   background-color: lightgrey;
-  height: 900px;
+  height: 700px;
   width: 100%;
+}
+
+@media (max-width: 480px) {
+  #skills {
+	  height: 500px;
+  }	
 }
 
 #skills h1 {
@@ -497,12 +503,28 @@ a:hover {
   align-items: center;
 }
 
-.icons3 img {
-  padding: 46px;
+@media (min-width: 480px) {
+	
+	.icons3 img {
+	  padding: 46px;
+	}
+
+	.icons1 img {
+	  padding: 22px;
+	}
 }
 
-.icons1 img {
-  padding: 22px;
+@media (max-width: 480px) {
+
+	.icons3 img {
+	  padding: 10px;
+	  margin: -5px;
+	}
+
+	.icons1 img {
+	  padding: 0px;
+	  margin: -15px;
+	}
 }
 
 #github-logo {
@@ -559,7 +581,6 @@ h2 {
 #mock-twitter-app {
   min-height: 50px;
   max-width: 420px;
-  
 }
 
 #contact {
@@ -567,7 +588,7 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  min-height: 300px;
+  min-height: 250px;
   width: auto;
   margin: auto;
 }
