@@ -9,11 +9,10 @@ http://amlawson.com/
 
 
 # Documentation 
-PURPOSE
+
 The purpose of my portfolio website, is to show the tools that I use and the projects that I am working on so that potential
 recruiters have an idea as to who I am and what I do.
 
-FUNCTIONALITY AND FEATURES
 The features include: 
 >A navbar, a landing page or homescreen, a skills and tools section, a project section, and a contact footer.
 Some functionality:
@@ -53,7 +52,7 @@ As you can see, I have more elements, a coloured background, clickable links for
 
 For the personal logo, I simply used my initials, AL followed by a full stop, adding some element of design. AL. 
 
-I created A timeline using Trello.
+I created A timeline using Trello and Figma.
 This timeline follows me through my re-design and gives an understanding about roughly what days were spent doing what.
 ![timeline](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/timline.png)
 

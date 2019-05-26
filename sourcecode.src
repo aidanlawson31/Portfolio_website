@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aidan Lawson">
+    <meta name="description" content="Portfolio Website">
+    <meta name="keywords" content="developer, portfolio, webcv">
+    
+    <title>AL. | Aidan's Portfolio</title>
+    <link href="https:////fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head> 
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">AL.</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="home" class="home">
+      <div class="home-logo">
+      <h1>Aidan Lawson.</h1>
+      <p>A Web Developer.</p>
+      <a class="about-arrow" href="#about"><img 
+      src="images/arrowupsidedown.png"></a>
+      </div>
+    </div>
+    <div>
+      <div id="about-header">
+        <div id="about"></div>
+        <div id="div1">
+        </div>
+        <div id="div2">
+        </div>
+        <div id="div3">
+        </div>
+      </div>
+    <div>
+      <div id="textbox1">
+        <h1>My name is Aidan,</br>
+        </h1>
+      </div>
+      <div id="textbox2">
+      <h1>I'm a young, aspiring developer, aiming to make a positive impact</br>
+      on companies looking to do great things.</h1>
+      <div id="textbox3">
+        <h1>Check out my <a href="#projects">projects</a></h1>
+      </div>
+    </div>
+    <div id="skills">
+      <h1>Skills</h1>
+      <div class="icons">
+        <div class="icons2">
+          <img id="rails" src="Icons/iconfinder_ruby-on-rails_3069735.svg ">
+        </div>
+
+        <div class="icons1">
+          <img src="Icons/iconfinder_code-programming-html-markup-develop-layout-language_652583.svg">
+          <img src="Icons/iconfinder_code-programming-css-style-develop-layout-language_652584.svg">
+          <img src="Icons/iconfinder_code-programming-javascript-software-develop-command-language_652581.svg">
+        </div>
+      </div>
+      <div id="tools">
+        <h1>Tools</h1>
+          <div class="icons3">
+            <img src="Icons/githubicon.png">
+            <img id="git-logo"    src="Icons/Git-Icon-Black.png">
+            <img id="weebly-logo" src="Icons/weebly.png">
+          </div>
+      </div>
+    </div>
+    <div id="projects">
+      <h1>Projects</h1>
+      <h2>Weebly</h2>
+      <div class="wrap">
+        <div class="card">
+          <img src="/images/sunshine.jpg.sb-e38a8015-8jS9pQ">
+          <div class="text-container">
+            <p><a href=https://wayneeasey.weebly.com/ target="_blank">Sunshine and chaos</a>, 
+            band website. </br>Made with Weebly</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/images/Wayneeasey.jpg.sb-e38a8015-nWlk15">
+          <div class="text-container">
+            <p><a href="https://sunshineandchaos.weebly.com/" target="_blank">Wayne Easey</a>, 
+            Personal Trainer. </br> Made with Weebly.</p>
+          </div>
+        </div>
+      </div>
+      <div id="github">   
+        <div id="bankapp">
+          <h2>Github</h2>
+          <p><a href="https://github.com/liuderek97/Ruby-Application-Assignment-1" target="_blank">
+          Banking Application.</a></p>
+          <p>
+          </p>
+          <p>Worked with a collegue to create a banking application.</br>
+          We used Ruby to store objects as hashes in arrays.</br>
+          What I learnt: Deep Ruby Self understanding.
+          </p>
+        </div>
+        <div id="mock-twitter-app">
+          <h2>Github</h2>
+          <p><a href="https://github.com/aidanlawson31/rails_sample_app" target="_blank">
+          Mock Twitter App</a></p>
+	     </p>
+          <p>Following Michael HartL's "The Rails Tutorial"</br>
+          My first real dive into Ruby on Rails</br>
+          What I'm learning: A whole lot.
+        </div>
+      </div>
+    <div id="contact">   
+    <h1>Contact me!</h1>
+    <p>aidanlawson31@gmail.com</p> </br>
+    <p><a target="_blank" href="https://www.linkedin.com/in/aidan-l-4162aa171/">LinkedIn</a></p>
+    <p><a target="_blank" href="https://github.com/aidanlawson31">Github</a></p>
+    </div>
+  </body>
+</html>
