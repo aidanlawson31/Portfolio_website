@@ -27,7 +27,13 @@ Some functionality:
 
 >in the projects section, screenshots of my Weebly projects are shown as "cards" with a hover effect.
 
-#Design process
+# Design process
+
+Trello.
+When building my project, although I found Trello a useful tool for organisation and prioritization, I found it easy to forget to update my Trello
+board on occasion. I did by best, even when forgeting, to go back and update it, as it helped me visualize my project. 
+![trello](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-18%20at%208.09.25%20pm.png)
+
 When initially searching for inspiration, I looked through online blogs with titles similar to "Best Developer Portfolios".
 A couple of the portfolios I really liked, and took inspiration from are: Yevgeniy Brikman — ybrikman.com, and Sean Halpin - seanhalpin.io.
 These websites had a brochure style set up, minimalist design, and good colour coordination. All of these aspects were taken
@@ -36,8 +42,16 @@ into account when I was designing my website.
 My first design:
 My first design used an image as the background, with minimalistic black styling, and white borders around elements.
 ![first-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-15%20at%201.33.41%20pm.png)
+However apon completing the first two sections, the home page and about section, I felt like the design wasn't quite where I had imagined it to be.
+I liked the styling, but I decided against using an image as the background, instead opting to use colours, borders and shapes instead.
 
-#Three Documentation Questions
+When designing my second wireframe I went back to my initial inpiration, this time following design, colouring, and features more closely.
+![re-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-23%20at%209.50.53%20am.png)
+As you can see, I have more elements, a coloured background, clickable links for ease of use, and a design that would be more expandable in the future. Plus I no longer am sticking with a single image, reused multiple times.
+
+For the personal logo, I simply used my initials, AL followed by a full stop, adding some element of design. AL. 
+
+# Documentation Questions
 As part of the documentation we were tasked to answer 3 short questions:
 1.  >Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 2.  >Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
