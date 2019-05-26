@@ -39,6 +39,8 @@ A couple of the portfolios I really liked, and took inspiration from are: Yevgen
 These websites had a brochure style set up, minimalist design, and good colour coordination. All of these aspects were taken
 into account when I was designing my website.
 
+When designing my wireframes I used Figma.
+I love Figma because I find it easier to use than balsamiq, it's 100% free with no subcribtion offer, AND it gives you the CSS code for more accurate dimensions.
 My first design:
 My first design used an image as the background, with minimalistic black styling, and white borders around elements.
 ![first-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-15%20at%201.33.41%20pm.png)
@@ -50,6 +52,65 @@ When designing my second wireframe I went back to my initial inpiration, this ti
 As you can see, I have more elements, a coloured background, clickable links for ease of use, and a design that would be more expandable in the future. Plus I no longer am sticking with a single image, reused multiple times.
 
 For the personal logo, I simply used my initials, AL followed by a full stop, adding some element of design. AL. 
+
+I created A timeline using Trello.
+This timeline follows me through my re-design and gives an understanding about roughly what days were spent doing what.
+![timeline](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/timline.png)
+
+# Site Components
+>The NAVBAR.
+Creating the navbar was relatively simple. The one interesting bit of code being:
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+This code is applied to the parent element, in this case the header. This clears the floats, fixing a bug where the nav bar elements were 
+missaligned.
+
+>The home page 
+Again, is relatively simple, thanks to the minimal elements.
+My favourite feature, maybe on the whole site is the floating arrow underneath the subtitle.
+This was keyframes along with the CSS animation tool.
+
+.about-arrow img {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+Although I had to go to stack overflow to make this work properly, I edited the proportions, movement amount, and movement time, to fit the 
+exact look I wanted to achieve.
+
+>The about section.
+
+The about section was a little tough, the header being my favourite part on this section. The header took some fiddling with and questions to get right. Originally I wasn't using flexbox, instead opting to hard code the header. Turns out the easiest way to do most things, and especially in this case with CSS is to use Flexbox. After fiddling with flexbox, using flex made the header responsive from the start.
+
+>The skills and tools section.
+
+This section was really quite hard for me.
+For a long time I just could not get the icons to align the way I wanted them too. Eventually by editing the icons themselves outside of CSS, I was able to get them to be the same size, and use flexbox to align them neatly.
+
+>The projects section.
+
+I feel like the design in this section is lacking, however does get information across that I wanted.
+Showcasing the Weebly screenshots as "cards" using a box shadow property:
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+This give a much nicer effect than just posting the screenshots on the page.
 
 # Documentation Questions
 As part of the documentation we were tasked to answer 3 short questions:
