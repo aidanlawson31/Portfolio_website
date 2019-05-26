@@ -31,7 +31,7 @@ Some functionality:
 Trello.
 When building my project, although I found Trello a useful tool for organisation and prioritization, I found it easy to forget to update my Trello
 board on occasion. I did by best, even when forgeting, to go back and update it, as it helped me visualize my project. 
-![trello](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-18%20at%208.09.25%20pm.png)
+![trello](https://github.com/aidanlawson31/Portfolio_website/blob/master/docs/Screen%20Shot%202019-05-18%20at%208.09.25%20pm.png)
 
 When initially searching for inspiration, I looked through online blogs with titles similar to "Best Developer Portfolios".
 A couple of the portfolios I really liked, and took inspiration from are: Yevgeniy Brikman — ybrikman.com, and Sean Halpin - seanhalpin.io.
@@ -42,19 +42,19 @@ When designing my wireframes I used Figma.
 I love Figma because I find it easier to use than balsamiq, it's 100% free with no subcribtion offer, AND it gives you the CSS code for more accurate dimensions.
 My first design:
 My first design used an image as the background, with minimalistic black styling, and white borders around elements.
-![first-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-15%20at%201.33.41%20pm.png)
+![first-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/docs/Screen%20Shot%202019-05-15%20at%201.33.41%20pm.png)
 However apon completing the first two sections, the home page and about section, I felt like the design wasn't quite where I had imagined it to be.
 I liked the styling, but I decided against using an image as the background, instead opting to use colours, borders and shapes instead.
 
 When designing my second wireframe I went back to my initial inpiration, this time following design, colouring, and features more closely.
-![re-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-23%20at%209.50.53%20am.png)
+![re-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/docs/Screen%20Shot%202019-05-23%20at%209.50.53%20am.png)
 As you can see, I have more elements, a coloured background, clickable links for ease of use, and a design that would be more expandable in the future. Plus I no longer am sticking with a single image, reused multiple times.
 
 For the personal logo, I simply used my initials, AL followed by a full stop, adding some element of design. AL. 
 
 I created A timeline using Trello and Figma.
 This timeline follows me through my re-design and gives an understanding about roughly what days were spent doing what.
-![timeline](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/timline.png)
+![timeline](https://github.com/aidanlawson31/Portfolio_website/blob/master/docs/timline.png)
 
 # Site Components
 >The NAVBAR.
