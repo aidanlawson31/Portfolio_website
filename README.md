@@ -33,7 +33,9 @@ A couple of the portfolios I really liked, and took inspiration from are: Yevgen
 These websites had a brochure style set up, minimalist design, and good colour coordination. All of these aspects were taken
 into account when I was designing my website.
 
-
+My first design:
+My first design used an image as the background, with minimalistic black styling, and white borders around elements.
+![first-design](https://github.com/aidanlawson31/Portfolio_website/blob/master/Screenshots%20for%20project/Screen%20Shot%202019-05-15%20at%201.33.41%20pm.png)
 
 #Three Documentation Questions
 As part of the documentation we were tasked to answer 3 short questions:
